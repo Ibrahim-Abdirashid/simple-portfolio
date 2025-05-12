@@ -260,7 +260,7 @@ span{
 .fa-github{
     color: #190955;
 }
-/* contact */
+/* contact ..............................*/
 
 #contact{
     background-color: #190955;
@@ -319,6 +319,85 @@ span{
 
 
 
+
+/* responsivek 1024 px */
+@media(max-width:1440px){
+      .container{
+    max-width: 1000px;
+    margin-inline: auto;
+}
+#home{
+    height: 90vh;
+    margin-bottom: 10rem;
+}
+
+/* qeyta about-ka ..................................*/
+#about{
+    height: 90vh;
+    margin-bottom: 20rem;
+}
+/* styling projects built ...........................*/
+
+#projects{
+    height: 100vh;
+    margin-top: 3rem;
+    margin-bottom: 20rem;
+
+}
+/* skills............. */
+#skills{
+    margin-bottom: 20rem;
+}
+/* contact .............................. */
+#contact{
+    background-color: #190955;
+    height: 30vh;
+}
+}
+
+
+
+
+@media(max-width:1024px){
+   .container{
+    max-width: 900px;
+    margin-inline: auto;
+}
+#home{
+    height: 90vh;
+    margin-bottom: 10rem;
+}
+
+/* qeyta about-ka ..................................*/
+#about{
+    height: 90vh;
+    margin-bottom: 20rem;
+}
+/* styling projects built ...........................*/
+
+#projects{
+    height: 100vh;
+    margin-top: 3rem;
+    margin-bottom: 20rem;
+
+}
+/* skills............. */
+#skills{
+    margin-bottom: 20rem;
+}
+/* contact .............................. */
+#contact{
+    background-color: #190955;
+    height: 30vh;
+}
+}
+
+
+
+
+
+
+
 /* halkan waxaa ka bilaabmaya hagaajinta responsive-ka */
 
 @media(max-width:780px){
@@ -334,8 +413,8 @@ span{
     /* hagajinta heroga */
     #home{
     height: 90vh;
-    margin-top: 3rem;
-    margin-bottom: 8rem;
+    margin-top: 4rem;
+    margin-bottom: 30rem;
 }
 
     .hero{
@@ -369,7 +448,7 @@ span{
 /* hagaajinta qebta aboutka */
 #about{
     height: 90vh;
-    margin-bottom: 30rem;
+    margin-bottom: 50rem;
 }
 .about-left img{
     width: 400px;
@@ -407,7 +486,7 @@ span{
 #projects{
     height: 100vh;
     margin-top: 30rem;
-    margin-bottom: 80rem;
+    margin-bottom: 100rem;
 
 }
 #projects h2{
