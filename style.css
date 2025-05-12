@@ -573,7 +573,7 @@ span{
 }
 #projects h2{
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: 500;
     color: #190955;
     margin-bottom: 3rem;
@@ -587,7 +587,7 @@ span{
     align-items: center;
     flex-direction: column;
     gap: 7rem;
-    padding: 0 4rem;
+    padding: 0 3rem;
 }
 .project-showing img{
     width: 100%;
