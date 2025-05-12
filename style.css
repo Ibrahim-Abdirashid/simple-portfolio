@@ -545,7 +545,7 @@ span{
 .about-right{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: start;
     flex-direction: column;
     gap: .3rem;
     text-align: center;
@@ -562,6 +562,7 @@ span{
     color: rgba(25, 9, 85,0.5);
     line-height: 1.5rem;
     margin-block: 1rem;
+    text-align: left;
 }
 /* stylinka qeybta projects */
 #projects{
