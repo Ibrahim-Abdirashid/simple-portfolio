@@ -64,6 +64,12 @@ nav ul li  a:hover{
     flex-direction: column;
     gap: 1rem;
 }
+.left-hero-he{
+    display: none;
+}
+.left-hero-h{
+    display: block;
+}
 .left-hero h1{
     font-size: 3rem;
     font-weight: 600;
@@ -110,7 +116,7 @@ span{
 .social-media i:hover{
     background-color: rgba(25, 9, 85, 0.7);
 }
-/* qeyta about-ka */
+/* qeyta about-ka ..................................*/
 #about{
     height: 90vh;
 }
@@ -148,7 +154,7 @@ span{
 .social-about i:hover{
     background-color: rgba(192, 108, 3,.5);
 }
-/* styling projects built */
+/* styling projects built ...........................*/
 
 #projects{
     height: 100vh;
@@ -309,4 +315,388 @@ span{
 }
 .social-icon i:hover{
     transform: scale(1.5);
+}
+
+
+
+/* halkan waxaa ka bilaabmaya hagaajinta responsive-ka */
+
+@media(max-width:780px){
+    /* hagajinta navka */
+    header{
+    background-color: #190955;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    height: 15vh;
+    }
+    /* hagajinta heroga */
+    #home{
+    height: 90vh;
+    margin-top: 3rem;
+    margin-bottom: 8rem;
+}
+
+    .hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    
+}
+.left-hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+.left-hero-he{
+    display: none;
+}
+.left-hero-h{
+    display: block;
+}
+.left-hero h1{
+    font-size: 3rem;
+    font-weight: 600;
+    color: #190955;
+    line-height: 4rem;
+    text-align: center;
+}
+/* hagaajinta qebta aboutka */
+#about{
+    height: 90vh;
+    margin-bottom: 30rem;
+}
+.about-left img{
+    width: 400px;
+}
+.container-about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5rem;
+    /* align-items: center; */
+}
+.about-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: .5rem;
+    text-align: center;
+    padding: 0 7rem;
+}
+.about-right h2{
+    color: #190955;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.about-right p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(25, 9, 85,0.5);
+    line-height: 2rem;
+    margin-block: 1rem;
+}
+/* stylinka qeybta projects */
+#projects{
+    height: 100vh;
+    margin-top: 30rem;
+    margin-bottom: 80rem;
+
+}
+#projects h2{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: #190955;
+    margin-bottom: 6rem;
+}
+.spa{
+    border-bottom: 4px dotted #c06c03;
+}
+.project{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 7rem;
+    padding: 0 10rem;
+}
+.project-showing img{
+    width: 100%;
+    height: 250px;
+}
+.project-showing{
+    background-color: #ffffff;
+    padding: 1rem;
+    border-radius: .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    box-shadow: 3px 3px 8px rgba(25, 9, 85,0.5);
+    transition: transform 0.3s ease-in-out;
+    text-align: center;
+}
+
+/* stylinka qeybta skillska */
+#skills{
+    height: 80vh;
+}
+#skills h1{
+    font-size: 3rem;
+    font-weight: 600;
+    color: #190955;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.skill{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* gap: 2rem; */
+    padding: 0 10rem;
+     text-align: center;
+}
+.html{
+    background-color: #fff;
+    box-shadow: 1px 1px 3px rgba(25, 9, 85,0.5);
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.html i{
+    font-size: 5rem;
+    transition: transform 0.6s ease-in-out;
+}
+.html i:hover{
+    transform: translateX(30%);
+    z-index: 1;
+}
+
+}
+
+
+
+
+
+
+/* mobile responsive weeye qeybtani */
+
+@media(max-width:500px){
+    .right-hero{
+        display: none;
+    }
+    
+.hero{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* gap: 4rem; */
+    padding: 0 6rem;
+    margin-bottom: 3rem;
+
+
+}
+.left-hero {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap: 1rem;
+    text-align: center;
+
+
+}
+.left-hero-h{
+    display: none;
+}
+.left-hero-he{
+    display: block;
+}
+.left-hero h1{
+    font-size: 2rem;
+    font-weight: 600;
+    color: #190955;
+    line-height: 2.5rem;
+}
+/* hagaajinta qebta aboutka */
+#about{
+    height: 90vh;
+    margin-bottom: 60rem;
+}
+.about-left img{
+    width: 300px;
+}
+.container-about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5rem;
+    /* align-items: center; */
+}
+.about-right{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: .3rem;
+    text-align: left;
+    /* padding: 0 7rem; */
+}
+.about-right h2{
+    color: #190955;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.about-right p{
+    font-size: .8rem;
+    font-weight: 400;
+    color: rgba(25, 9, 85,0.5);
+    line-height: 1.5rem;
+    margin-block: 1rem;
+}
+/* stylinka qeybta projects */
+#projects{
+    height: 100vh;
+    /* margin-top: 30rem; */
+    margin-bottom: 120rem;
+
+}
+#projects h2{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+    color: #190955;
+    margin-bottom: 3rem;
+}
+.spa{
+    border-bottom: 4px dotted #c06c03;
+}
+.project{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 7rem;
+    padding: 0 4rem;
+}
+.project-showing img{
+    width: 100%;
+    height: 250px;
+}
+.project-showing{
+    background-color: #ffffff;
+    padding: 1rem;
+    border-radius: .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    box-shadow: 3px 3px 8px rgba(25, 9, 85,0.5);
+    transition: transform 0.3s ease-in-out;
+    text-align: center;
+}
+/* stylinka qeybta skillska */
+#skills{
+    height: 80vh;
+    margin-bottom: 40rem;
+}
+#skills h1{
+    font-size: 3rem;
+    font-weight: 600;
+    color: #190955;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.skill{
+    display: grid;
+    grid-template-columns:1fr;
+    /* gap: 2rem; */
+    padding: 0 8rem;
+     text-align: center;
+}
+.html{
+    background-color: #fff;
+    box-shadow: 1px 1px 3px rgba(25, 9, 85,0.5);
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.html i{
+    font-size: 10rem;
+    transition: transform 0.6s ease-in-out;
+}
+.html i:hover{
+    transform: translateX(30%);
+    z-index: 1;
+}
+
+
+/* stylinka qeybta footerla */
+#contact{
+    background-color: #190955;
+    height: 20vh;
+}
+.kii-guud{
+    max-width: 500px;
+
+}
+.contact-us{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    gap: 2rem;
+    
+    /* justify-content: space-evenly; */
+    /* align-items: center; */
+    color: #fff;
+
+}
+.contact-us nav ul{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    
+}
+.contact-us nav ul li a:hover{
+    border-bottom: 1px solid #c06c03;
+    font-size: 1.2rem;
+}
+.logo h1{
+    display: none;
+}
+.contect-header h1{
+    font-size: 1.7rem;
+}
+.social-contact{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+.social-icon{
+    display: flex;
+    gap: 1rem;
+}
+.social-icon i{
+    font-size: 1.5rem;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+.social-icon i:hover{
+    transform: scale(1.5);
+}
+
+
+
 }
